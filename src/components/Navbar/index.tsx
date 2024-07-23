@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
     <header className="w-full flex items-center fixed top-0 left-0 z-[9999] bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 navbar">
       <div className="container">
         <div className="relative flex justify-between items-center">
-          <Link href="/" className="text-lg font-bold text-primary py-6 px-4">
+          <Link href={"/"} className="text-lg font-bold text-primary py-6 px-4">
             sandiamelani
           </Link>
 
@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
                     className={`py-2 flex text-base mx-auto text-white font-medium group-hover:text-primary transition-all navigasi lg:mx-5 ${
                       pathname === "/" ? "active" : ""
                     }`}
-                    href="/">
+                    href={"/"}>
                     Home
                   </Link>
                 </li>
@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
                     className={`py-2 mx-auto flex text-base text-white font-medium group-hover:text-primary transition-all navigasi lg:mx-5 ${
                       pathname === "/about" ? "active" : ""
                     }`}
-                    href="/about">
+                    href={"/about"}>
                     About
                   </Link>
                 </li>
@@ -82,7 +82,7 @@ const Navbar: React.FC = () => {
                     className={`py-2 mx-auto flex text-base text-white font-medium group-hover:text-primary transition-all navigasi lg:mx-5 ${
                       pathname === "/portfolio" ? "active" : ""
                     }`}
-                    href="/portfolio">
+                    href={"/portfolio"}>
                     Portfolio
                   </Link>
                 </li>
@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
                     className={`py-2 mx-auto flex text-base text-white font-medium group-hover:text-primary transition-all navigasi lg:mx-5 ${
                       pathname === "/gallery" ? "active" : ""
                     }`}
-                    href="/gallery">
+                    href={"/gallery"}>
                     Gallery
                   </Link>
                 </li>
@@ -100,7 +100,7 @@ const Navbar: React.FC = () => {
                     className={`py-2 mx-auto flex text-base text-white font-medium group-hover:text-primary transition-all navigasi lg:mx-5 ${
                       pathname === "/contact" ? "active" : ""
                     }`}
-                    href="/contact">
+                    href={"/contact"}>
                     Contact
                   </Link>
                 </li>
