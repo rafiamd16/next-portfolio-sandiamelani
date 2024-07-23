@@ -1,9 +1,9 @@
-import Home from "@/components/Home"
+import Contact from "@/components/Contact"
 
 const Page = () => {
   return (
     <>
-      <Home />
+      <Contact />
     </>
   )
 }

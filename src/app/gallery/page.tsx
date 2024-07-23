@@ -1,9 +1,9 @@
-import Home from "@/components/Home"
+import Gallery from "@/components/Gallery"
 
 const Page = () => {
   return (
     <>
-      <Home />
+      <Gallery />
     </>
   )
 }
