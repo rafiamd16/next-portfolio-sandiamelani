@@ -144,7 +144,7 @@ const About: React.FC = () => {
                 href="https://smkn2mataram.sch.id"
                 target="_blank"
                 className="py-2 px-8 rounded bg-primary text-dark font-medium hover:bg-opacity-80 transition-all duration-300 ease-in-out">
-                Learn More
+                Read More
               </Link>
               <p className="self-center sm:self-end text-secondary text-sm">
                 Source: smkn2mataram.sch.id
