@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${inter.className} flex flex-col min-h-screen bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900`}>
+        className={` ${inter.className} flex flex-col min-h-screen bg-gradient-to-r from-dark via-dark to-blue-950`}>
         <main className="flex-grow">
           <Navbar />
           {children}

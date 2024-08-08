@@ -1,3 +1,6 @@
+import ReactPlayer from "react-player"
+import Videos from "./Videos"
+
 const Gallery = () => {
   return (
     <>
@@ -58,6 +61,8 @@ const Gallery = () => {
           </div>
         </div>
       </section>
+
+      <Videos />
     </>
   )
 }

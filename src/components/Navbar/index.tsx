@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
   }, [])
 
   return (
-    <header className="w-full flex items-center fixed top-0 left-0 z-[9999] bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 navbar">
+    <header className="w-full flex items-center fixed top-0 left-0 z-[9999] bg-gradient-to-r from-slate-900 via-slate-900 to-blue-950 navbar">
       <div className="container">
         <div className="relative flex justify-between items-center">
           <Link href={"/"} className="text-lg font-bold text-primary py-6 px-4">
